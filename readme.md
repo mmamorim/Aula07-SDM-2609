@@ -2,6 +2,9 @@
 
 o que foi necessário para criar esse projeto?
 
-1. ```
-criou a pasta do projeto
+1. crir a pasta do projeto
+
+2. 
+```
+npm init
 ```
