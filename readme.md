@@ -25,6 +25,8 @@ npm install express
 7. para testar fizemos este trecho
 
 ```
+const express = require('express')
+
 const app = express()
 
 app.get('/', function (req, res) {
