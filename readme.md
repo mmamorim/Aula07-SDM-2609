@@ -2,7 +2,7 @@
 
 o que foi necessário para criar esse projeto?
 
-1. crir a pasta do projeto
+1. criar a pasta do projeto
 
 2. abrir o terminal
 
@@ -18,7 +18,7 @@ npm init
 npm install express
 ```
 
-6. se quiser usar o nodemon, adicionar no arquivo `package.json`
+6. se quiser usar o nodemon, adicionar no arquivo `package.json` na propriedade `scripts` 
 ```
 "dev": "nodemon ./server.js"
 ```
