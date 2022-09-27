@@ -7,11 +7,21 @@ console.log("+-----------------+");
 const app = express()
 
 app.get('/', function (req, res) {
-    console.log("alguem chamou a rota /");
-    res.send('<h1 style="background-color: red;">Oi gente</h1>')
+    console.log("alguem fez requisicao GET na rota /");
+    res.status(200).send("olá vc mandou um req GET")
+})
+
+app.post('/', function (req, res) {
+    console.log("alguem fez requisicao POST na rota /");
+    res.status(200).send("olá vc mandou um req POST")
 })
 
 app.get('/nome', function (req, res) {
+    console.log("alguem chamou a rota /nome");
+    res.send('<h1 style="background-color: green;">Marcelo</h1>')
+})
+
+app.post('/nome', function (req, res) {
     console.log("alguem chamou a rota /nome");
     res.send('<h1 style="background-color: green;">Marcelo</h1>')
 })
